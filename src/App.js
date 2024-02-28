@@ -46,15 +46,15 @@ function App() {
 
 
 
-        <div class=" tools d-flex  gap-3">
-          <div class="p-3 text-secondary">Tools</div>
-          <div class="p-3 text-secondary">AWS Builder</div>
-          <div class="p-3 text-secondary ">Start Build</div>
-          <div class="p-3 text-secondary ">Build Supplies</div>
-          <div class="p-3 text-secondary ">Tooling</div>
-          <div class="p-3 text-secondary ">BlueHosting</div>
+        <div class=" tools d-flex ">
+          <div class="p-2 text-secondary">Tools</div>
+          <div class="p-2 text-secondary">AWS Builder</div>
+          <div class="p-2 text-secondary ">Start Build</div>
+          <div class="p-2 text-secondary ">Build Supplies</div>
+          <div class="p-2 text-secondary ">Tooling</div>
+          <div class="p-2 text-secondary ">BlueHosting</div>
         </div>
-        <div class=" hosting d-flex p-2  ">
+        <div class=" hosting d-flex   ">
           <div class=" p-2 text-secondary">Home<img src={rarrow} alt="" /></div>
           <div class=" p-2 text-secondary">Hosting for all <img src={rarrow} alt="" /></div>
           <div class=" p-2 text-secondary ">Hosting <img src={rarrow} alt="" /></div>
@@ -70,7 +70,7 @@ function App() {
               <span>Best choice</span></div>
           </div>
         </div>
-        <div className='first-container '>
+        <div className='first-container gap-5'>
           <div className='first '>
             <span class="p-2 text-secondary ">1</span>
           </div>
@@ -117,7 +117,7 @@ function App() {
               <span>Best choice</span></div>
           </div>
         </div>
-        <div className='first-container'>
+        <div className='first-container gap-5'>
           <div className='first'>
             <span class="p-2 text-secondary">2</span>
           </div>
@@ -159,7 +159,7 @@ function App() {
         <div className='pt-5'>
 
         </div>
-        <div className='first-container '>
+        <div className='first-container gap-5'>
           <div className='first'>
             <span class="p-2 text-secondary ">3</span>
           </div>
@@ -210,7 +210,7 @@ function App() {
 
           </div>
         </div>
-        <div className='first-container '>
+        <div className='first-container gap-5 '>
           <div className='first '>
             <span class="p-2 text-secondary ">4</span>
           </div>
@@ -229,7 +229,7 @@ function App() {
               <h6 >Main highlights</h6>
               <div className='fourth-card'>
                 <div className='list '>
-                  <div className='d-flex gap-4 '>
+                  <div className='d-flex gap-2 '>
                     <span className='list-rate '>9.9</span>
                     <span className='li-word'>Building responsive</span>
                   </div>
