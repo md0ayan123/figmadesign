@@ -46,7 +46,7 @@ function App() {
 
 
 
-        <div class=" tools d-flex ">
+        <div class=" tools d-flex p-4">
           <div class="p-2 text-secondary">Tools</div>
           <div class="p-2 text-secondary">AWS Builder</div>
           <div class="p-2 text-secondary ">Start Build</div>
@@ -55,15 +55,15 @@ function App() {
           <div class="p-2 text-secondary ">BlueHosting</div>
         </div>
         <div class=" hosting d-flex   ">
-          <div class=" p-2 text-secondary">Home<img src={rarrow} alt="" /></div>
-          <div class=" p-2 text-secondary">Hosting for all <img src={rarrow} alt="" /></div>
+          <div class=" p-2 text-secondary ">Home <img src={rarrow} alt="" /></div>
+          <div class=" p-2 text-secondary ">Hosting for all <img src={rarrow} alt="" /></div>
           <div class=" p-2 text-secondary ">Hosting <img src={rarrow} alt="" /></div>
           <div class=" p-2 text-secondary ">Hosting6 <img src={rarrow} alt="" /></div>
           <div class=" p-2 text-secondary ">Hosting5 </div>
 
         </div>
 
-        <div className='pt-2'>
+        <div className='pt-4'>
           <div >
             <div className='box gap-1'>
               <img className='trophy' src={trophy} alt="" />

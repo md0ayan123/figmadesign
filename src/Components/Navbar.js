@@ -7,8 +7,8 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav  className="navbar">
-<div className='container'>
+    <nav  className="navbar d-flex gap-4">
+<div className='container '>
     <div className='search-container'>
       <img src={image} alt="" />
       <input className='search'type="text" />

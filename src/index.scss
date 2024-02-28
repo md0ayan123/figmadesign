@@ -4,17 +4,7 @@
   margin: 0px;
   padding: 0px;
 }
-// .container{
- 
-// padding-left: 90px;
-// padding-right: 90px;
 
-
-// }
-
-// .container{
-//   margin: auto 100px;
-// }
 
 .search-container{
   background-color: #fff;
@@ -36,7 +26,7 @@
   left: 0;
   width: 100%;
     color: #D1D6DA;
-    gap: 80px;
+    // gap: 80px;
     
   
     background-color: #212731;
@@ -44,15 +34,15 @@
     width:100%;
     .container{
       display: flex;
-      justify-content: center;
-      gap: 80px;
+      justify-content: space-between;
+      // gap: 80px;
     }
  
 }
           .nav-items{
             display: flex;
             align-items: center;
-            gap: 5px;
+            gap: 20px;
             justify-content: center;
 
           }
@@ -596,9 +586,7 @@ b{
   }
 }
 @media(max-width:1200px){
-  // .container{
-  //   width: auto;
-  // }
+ 
 
   
   .first-box{
@@ -606,20 +594,14 @@ b{
    margin: 0px auto;
   }
 
-  .fourth-card{
-    // width: 300px;
-
-  }
+  
   
   .main-card{
    
     display: flex;
     justify-content: center;
   }
-  .img-card{
-    
-    // margin: 0px auto;
-  }
+  
   .signup{
     display: flex;
     justify-content: center;
@@ -763,6 +745,14 @@ font: 1em sans-serif;
   }
  }
   @media(max-width:500px){
+    // .navbar {
+    //  display: flex;
+    //  gap: 0px;
+    // }
+    }
+    .hamburger{
+      background-color: black;
+    }
     .container{
       margin: 0px 23px;
     }
@@ -772,24 +762,14 @@ font: 1em sans-serif;
       position: relative;
       right: 0px;
     }
-    .first-caption{
-      // width: 500px;
-    }
+   
     .second-caption{
       padding-bottom: 0px ;
     }
     .head-text{
       font-size: 33px;
     }
-    // .container{
-    //   padding-left: 12px;
-    //   width: 100%;
-    //   .head-text{
-    //     font-size: 33px;
-    //   }
-      
-
-    // }
+  
     .head-line{
       display: flex;
       flex-wrap: wrap ;
@@ -798,22 +778,14 @@ font: 1em sans-serif;
       width: auto;
       margin: 0px auto
     }
-    .mid-part{
-     
-      // display: flex;
-      // justify-content: center;
-    }
+    
     .first-box{
       position: relative;
       // right: 12px;
       // width: 130px;
       margin: 0px auto;
     }
-    .second-caption{
-      // width: 100px;
-      // display: flex;
-      // justify-content: center;
-    }
+    
     .rating-container{
       width: 100%;
       position: relative;
@@ -835,11 +807,7 @@ font: 1em sans-serif;
       flex-wrap: wrap;
     }
   }
-  .rating-card{
   
-   
-
-  }
   .signup{
     margin: 0px auto ;
     width: 200px ;
@@ -850,9 +818,7 @@ font: 1em sans-serif;
       font-size: 23px;
     }
   }
-  .head-line{
-    // width: 100px;
-  }
+  
    
   .category span{
     display: flex;
@@ -876,7 +842,7 @@ font: 1em sans-serif;
       display: flex;
       justify-content: center;
     }
-  }
+  
   
   
 
