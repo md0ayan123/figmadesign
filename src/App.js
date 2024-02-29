@@ -46,7 +46,7 @@ function App() {
 
 
 
-        <div class=" tools d-flex p-4">
+        <div class=" tools d-flex ">
           <div class="p-2 text-secondary">Tools</div>
           <div class="p-2 text-secondary">AWS Builder</div>
           <div class="p-2 text-secondary ">Start Build</div>
