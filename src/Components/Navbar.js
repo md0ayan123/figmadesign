@@ -7,13 +7,13 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav  className="navbar d-flex gap-4">
-<div className='container '>
-    <div className='search-container'>
+    <nav  className="navbar ">
+<div className='nav  '>
+    <div className='search-container '>
       <img src={image} alt="" />
       <input className='search'type="text" />
     </div>
-    <div className={`nav-items  ${isOpen && 'open'}`}>
+    <div className={`nav-items  ${isOpen && 'open' }`}>
       <a href="/">Categories</a>
       <a href="/">Website Builders</a>
       <a href="/">Today's deals</a>

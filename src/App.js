@@ -199,9 +199,7 @@ function App() {
               <button className='btn-view'>View</button>
             </div>
           </div>
-          div
-
-
+        
 
 
         </div>

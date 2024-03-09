@@ -4,7 +4,11 @@
   margin: 0px;
   padding: 0px;
 }
-
+// .App{
+//     border: 2px solid red;
+//     display: block;
+//     justify-content: center;
+// }
 
 .search-container{
   background-color: #fff;
@@ -18,42 +22,38 @@
 
 .navbar {
  align-items: center;
-  // justify-content: center;
+  justify-content: center;
+
   display: flex;
   text-align: center;
-  position: relative ;
-  top: 0;
-  left: 0;
+  
   width: 100%;
     color: #D1D6DA;
-    // gap: 80px;
-    
-  
     background-color: #212731;
     height: 64px;
     width:100%;
-    .container{
-      display: flex;
-      justify-content: space-between;
-      // gap: 80px;
-    }
+    
+    
  
 }
+.nav{
+  display: flex;
+  gap: 130px;
+
+  
+}
           .nav-items{
+            gap: 40px;
             display: flex;
             align-items: center;
-            gap: 20px;
-            justify-content: center;
-
+                  
           }
 
 
 
 .nav-items a {
   
-
   top: 100%; 
- 
   color:
   #D1D6DA;
   text-decoration: none;
@@ -87,7 +87,7 @@
 }
 
 
-@media (max-width: 771px) {
+@media (max-width: 800px) {
   .navbar{
     display: flex;
     justify-content: space-around;
@@ -139,6 +139,7 @@
 }
 
 .head-text{
+
   font-weight: 400;
   font-size: 48px;
   color:  #2C384A;
@@ -527,7 +528,8 @@ b{
  .united{
   display: flex;
   align-items: center;
-  gap:10px
+  gap:10px;
+  margin-top: 30px;
 
  }
 
@@ -640,7 +642,11 @@ b{
 }
 @media(max-width:800px){
   .container{
-    margin: auto;
+    padding:0px 12px;
+  }
+  .nav{
+    display: flex;
+    // gap: 12px; 
   }
   .black-box{
     display: flex;
@@ -718,13 +724,10 @@ height: 120px;
 display: flex;
 font: 1em sans-serif;
  }
-//  .rating1{
-//   font-size: 9px;
-//   width: 45px;
-//  }
+
  .btn-view{
   width: 223px;
-  height: 45px;
+  height: 48px;
   border-radius: 12px;
  }
  .four-s{
@@ -749,9 +752,19 @@ font: 1em sans-serif;
   }
  }
   @media(max-width:500px){
+    // .container{
+    //   margin: 2px auto ;
+    // }
+
+    .nav{
+      display: flex;
+      gap: 0px;
+    }
    
       .search-container{
         margin: 0px 12px;
+        // width: 100px;
+        // width: 100%;
 
       }
     .hamburger{
@@ -853,8 +866,10 @@ font: 1em sans-serif;
       display: flex;
       justify-content: center;
     }
-  
-  
+  .btn-deal{
+    width: 250px;
+  }
+
   
 
 
